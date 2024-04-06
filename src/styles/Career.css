@@ -1,0 +1,87 @@
+.articleCareer {
+    width: 29.3%;
+    margin: 0 2%;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    background-color: white;
+    padding-bottom: 20px;
+    box-shadow: 0 0 10px 0 black;
+}
+
+.articleCareer .state{
+    position: absolute;
+    color: white;
+    top: 6px;
+    left: 0px;
+    background-color: #24a512;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    width: 80%;
+    padding: 4px 0;
+    opacity: 0.9;
+    text-align: center;
+    font-family: "Tilt Neon";
+}
+
+.articleCareer .state.disabled{
+    background-color: #9e1a1a;
+}
+
+.articleCareer img {
+    width: 100%;
+    height: 255px;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+}
+
+.articleCareer h4{
+    margin: 1.5% 0 5% 0;
+    color: #257da8;
+    text-align: center;
+    font-family: "Teko";
+    font-size: 1.8rem;
+}
+
+.articleCareer .type{
+    text-align: center;
+    font-style: italic;
+    margin: 3% 0 0 0;
+    font-family: "Tilt Neon";
+}
+
+.articleCareer .info{
+    margin-left: 15px;
+    font-size: 1.2rem;
+    font-family: "Tilt Neon";
+}
+
+.articleCareer button{
+    width: 60%;
+    margin: 2% 20% 0 20%;
+    border-radius: 10px;
+    font-family: "Teko";
+    border: 2px solid #198754;
+    color: #198754;
+    font-weight: 700;
+    font-size: 1.2rem;
+    transition: all 0.2s ease;
+    background-color: transparent;
+    padding-top: 5px;
+}
+
+.articleCareer button:hover{
+    background-color: #198754;
+    color: white;
+}
+
+@media screen and (min-width: 1800px) {
+    .articleCareer img {
+        width: 100%;
+        height: 300px;
+        border-top-left-radius: 13px;
+        border-top-right-radius: 13px;
+    }
+}

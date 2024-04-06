@@ -1,0 +1,118 @@
+.front-page {
+    background-image: url('https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 85vh;
+    display: flex;
+    justify-content: end;
+}
+
+.front-page article {
+    background-color: rgba(0, 0, 0, 0.8);
+    margin-top: 0.3vh;
+    height: 99.7vh;
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.front-page h2 {
+    text-align: center;
+    color: white;
+    margin: 0 5%;
+    font-family: "Play";
+    font-size: 3rem;
+}
+
+.news h2 {
+    margin: 3% 42.5% 4% 42.5%;
+    text-align: center;
+    font-family: "Play";
+    border-bottom: 2px solid #3188b5;
+    width: 15%;
+    transition: all 0.5s ease;
+    border-radius: 5px;
+    user-select: none;
+}
+
+.news h2:hover {
+    margin: 3% 35% 4% 35%;
+    width: 30%;
+}
+
+.newsArticles {
+    margin-bottom: 2%;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.btnNews {
+    margin: 0 35% 2% 35%;
+    width: 30%;
+    padding: 10px 0;
+    border-radius: 10px;
+    color: #198754;
+    font-weight: 700;
+    font-size: 1.3rem;
+    font-family: "Teko";
+    border: 2px solid #198754;
+    transition: all 0.2s ease;
+    background-color: transparent;
+}
+
+.btnNews:hover {
+    background-color: #198754;
+    color: white;
+}
+
+.careers {
+    background-color: #3188b5;
+    padding: 15px 0;
+    margin-top: 2%;
+}
+
+.careers h2 {
+    text-align: center;
+    color: white;
+    font-family: "Play";
+    margin: 1% 42.5% 0 42.5%;
+    text-align: center;
+    font-family: "Play";
+    border-bottom: 2px solid white;
+    width: 15%;
+    transition: all 0.5s ease;
+    border-radius: 5px;
+    user-select: none;
+}
+
+.careers h2:hover {
+    margin: 1% 35% 0 35%;
+    width: 30%;
+}
+
+.careers article {
+    margin-top: 2%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btnCareers {
+    margin: 3% 35% 2% 35%;
+    width: 30%;
+    padding: 10px 0;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    font-size: 1.3rem;
+    font-family: "Teko";
+    border: 2px solid white;
+    transition: all 0.2s ease;
+    background-color: transparent;
+}
+
+.btnCareers:hover {
+    background-color: white;
+    color: #198754;
+}
