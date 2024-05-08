@@ -1,0 +1,54 @@
+.detailedCareer article {
+    display: flex;
+    flex-direction: column;
+    margin: 5% 10%;
+    padding: 2% 2%;
+    background-color: #f0f0f0;
+    box-shadow: 0 0 20px 0 gray;
+    border-radius: 20px;
+}
+
+.detailedCareer article h1,
+.detailedCareer article h2,
+.detailedCareer article h3,
+.detailedCareer article h4,
+.detailedCareer article h5 {
+    text-align: center;
+    color: #3188b5;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    font-family: "Play";
+    font-weight: 700;
+}
+
+.detailedCareer p,
+.detailedCareer a {
+    font-family: "Teko";
+    font-size: 1.5rem;
+}
+
+.detailedCareer a {
+    margin-bottom: 1%;
+}
+
+.detailedCareer img {
+    border-radius: 30px;
+    margin-bottom: 2%;
+}
+
+.insc {
+    text-align: center;
+    margin: 0 25% 3% 25%;
+    color: white;
+    width: 50%;
+    border-radius: 20px;
+    padding: 10px 0;
+}
+
+.insc.active {
+    background-color: #24a512;
+}
+
+.insc.inactive {
+    background-color: #9e1a1a;
+}

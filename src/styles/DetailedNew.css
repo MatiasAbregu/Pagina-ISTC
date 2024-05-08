@@ -1,0 +1,41 @@
+.detailedNew article {
+    display: flex;
+    flex-direction: column;
+    margin: 5% 10%;
+    padding: 2% 2%;
+    background-color: #f0f0f0;
+    box-shadow: 0 0 20px 0 gray;
+    border-radius: 20px;
+}
+
+.detailedNew article h1,
+.detailedNew article h2,
+.detailedNew article h3,
+.detailedNew article h4,
+.detailedNew article h5 {
+    text-align: center;
+    color: #3188b5;
+    margin-top: 1%;
+    margin-bottom: 3%;
+    font-family: "Play";
+    font-weight: 700;
+}
+
+.detailedNew p, .detailedNew a {
+    font-family: "Teko";
+    font-size: 1.5rem;
+}
+
+.detailedNew a {
+    margin-bottom: 1%;
+}
+
+.detailedNew img{
+    border-radius: 30px;
+    margin-bottom: 2%;
+}
+
+.dateP {
+    font-size: 1.3rem !important;
+    margin-bottom: 5%;
+}

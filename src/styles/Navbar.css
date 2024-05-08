@@ -1,6 +1,7 @@
 .bg-body-tertiary {
     background-color: white !important;
     box-shadow: 0px 0px 10px 0px black;
+    padding: 4px 0 8px 0;
 }
 
 .navbar-brand {
@@ -8,6 +9,7 @@
 }
 
 .title {
+    margin-top: 15px;
     margin-left: 1%;
     font-size: 1.2rem;
     color: #3188b5;
@@ -21,7 +23,7 @@
 }
 
 .navbar-nav {
-    width: 80%;
+    width: 50%;
 }
 
 .nav-item,
@@ -63,18 +65,6 @@
     font-size: 1.5rem;
     color: black;
     display: flex;
-}
-
-#drop2 .dropdown-menu {
-    font-family: "Teko";
-    text-align: center;
-    width: 312px;
-    padding-left: 5px;
-    top: 120%;
-    left: -70px;
-    right: 0;
-    font-size: 1.5rem;
-    color: black;
 }
 
 .dropdown-item {

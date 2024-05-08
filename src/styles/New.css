@@ -7,6 +7,8 @@
     align-items: center;
     text-align: center;
     box-shadow: 0 0 10px 0 black;
+    height: 550px;
+    position: relative;
 }
 
 .articleNew h4{
@@ -34,6 +36,32 @@
     margin: 0 6% 3% 6%;
     font-family: "Tilt Neon";
 }
+
+.articleNew button{
+    position: absolute;
+    bottom: 16px;
+    width: 50%;
+    border-radius: 10px;
+    font-family: "Teko";
+    border: 2px solid #198754;
+    color: #198754;
+    font-weight: 700;
+    font-size: 1.2rem;
+    transition: all 0.2s ease;
+    background-color: transparent;
+    padding-top: 5px;
+}
+
+.articleNew button:hover{
+    background-color: #198754;
+    color: white;
+}
+
+/* All News */
+.boxNews .articleNew{
+    margin-bottom: 6%;
+}
+
 
 @media screen and (min-width: 1800px) {
     .articleNew img{

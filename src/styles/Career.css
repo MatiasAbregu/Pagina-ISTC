@@ -56,6 +56,7 @@
     margin-left: 15px;
     font-size: 1.2rem;
     font-family: "Tilt Neon";
+    text-align: center;
 }
 
 .articleCareer button{
@@ -75,6 +76,12 @@
 .articleCareer button:hover{
     background-color: #198754;
     color: white;
+}
+
+/* All Careers */
+.boxCareers .articleCareer{
+    margin-top: 1%;
+    margin-bottom: 5%;
 }
 
 @media screen and (min-width: 1800px) {

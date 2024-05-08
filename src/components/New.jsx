@@ -1,32 +1,17 @@
 import React from "react";
 import '../styles/New.css';
+import Dates from '../functions/Dates';
 
-export const New = ({img, date, title, info}) => {
-    
-    const getDate = (date) => {
-        let newDate = ``;
+//Crear editor HTML
 
-        if(date.getDate() < 10){
-            newDate = `0${date.getDate()}/`;
-        } else newDate = `${date.getDate()}/`;
-
-        if(date.getMonth() < 10){
-            newDate += `0${date.getMonth()}/`;
-        } else newDate += `${date.getMonth()}/`;
-
-        if(date.getYear()) {
-            newDate += `${date.getYear() + 1900}`;
-        }
-
-        return newDate;
-    }
-
+export const New = ({ img, date, title, info, eventClick }) => {
     return (
-        <article className="articleNew">
+        <article className="articleNew" onClick={eventClick}>
             <img src={img} alt="" />
-            <p className="date">{getDate(date)}</p>
+            <p className="date">{Dates.getDate(date)}</p>
             <h4>{title}</h4>
             <p className="info">{info}</p>
+            <button>Más información</button>
         </article>
     );
 }
